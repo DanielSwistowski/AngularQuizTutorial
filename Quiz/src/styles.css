@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+input.ng-invalid.ng-dirty{
+    border-bottom-color: red !important;
+    box-shadow: 0 1px 0 0 red !important;
+}
+
+button.btn-submit{
+    width: 100%;
+}
+
+ul.answer li:hover{
+    background-color: paleturquoise;
+    color: moccasin;
+    cursor: pointer;
+}
+
+ul li.selected{
+    background-color: paleturquoise !important;
+    color: moccasin !important;
+}
